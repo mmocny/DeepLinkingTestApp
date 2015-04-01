@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.DeepLinkingTestApp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DeepLinkingTestApp</name>
+    <description>
+        A sample Apache Cordova application that tests App Deep Linking.
+    </description>
+    <author email="mmocny@chromium.org">
+        Michal Mocny
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <engine name="android" version="3.7.1" />
+    <plugin name="com.mmocny.cordova.pluginautoupgrade" src="/Users/mmocny/dev/cordova-plugin-plugin-auto-upgrade" version="^1.0.1" />
+    <plugin name="cordova-plugin-app-deep-linking" src="/Users/mmocny/dev/cordova-plugin-app-deep-linking" version="^0.0.1" />
+</widget>
